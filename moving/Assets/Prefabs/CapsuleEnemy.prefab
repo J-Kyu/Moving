@@ -98,6 +98,7 @@ MonoBehaviour:
   speed: 2
   player: {fileID: 1135122980109866, guid: 8528876376a870a4cb1b32a022b07231, type: 2}
   enemyLimitedTime: 5
+  particle: {fileID: 1172269928069862, guid: ed9d2d2bb851bde409129fd58725f63a, type: 2}
 --- !u!136 &136035162732231974
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Moving/New Unity Project/Assets/Main.unity
+- path: Assets/Scene/Main.unity
   isLoaded: 1
   isActive: 1

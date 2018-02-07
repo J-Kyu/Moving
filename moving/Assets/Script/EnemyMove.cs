@@ -7,6 +7,7 @@ public class EnemyMove : MonoBehaviour {
     public GameObject player;
     public float enemyLimitedTime=3.0f;
     private float enemyLasting;
+    public GameObject particle;
    
 	// Use this for initialization
 	void Start () {
@@ -25,6 +26,8 @@ public class EnemyMove : MonoBehaviour {
         enemyLasting += Time.deltaTime;
         if (enemyLasting>enemyLimitedTime )
         {
+            var par = Instantiate(particle);
+            par.transform.position = transform.position;
             Destroy(gameObject);
         }
        
