@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour {
-
+    public AudioSource audioSource;
     public PlayerHp playerHp;
-  
-	// Use this for initialization
-	void Start () {
+    public GameObject particle;
+    // Use this for initialization
+    void Start () {
         
 		
 	}
@@ -17,13 +17,23 @@ public class PlayerCollision : MonoBehaviour {
 
 		
 	}
+    public void PlaySound()
+    {
+        audioSource.Play();
+        // Debug.LogFormat("wow");
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Enemy"))
         {
-            playerHp.playerLastingTime=0.0f;
-            playerHp.hp--;
             Destroy(other.gameObject);
+            var par = Instantiate(particle);
+            par.transform.position = transform.position;
+            playerHp.playerLastingTime=0.0f;
+            playerHp.DamageHp(1);
+            PlaySound();
+
+
         }
     }
 }

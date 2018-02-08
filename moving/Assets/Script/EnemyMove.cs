@@ -8,6 +8,7 @@ public class EnemyMove : MonoBehaviour {
     public float enemyLimitedTime=3.0f;
     private float enemyLasting;
     public GameObject particle;
+    
    
 	// Use this for initialization
 	void Start () {
@@ -21,7 +22,7 @@ public class EnemyMove : MonoBehaviour {
         var diff = player.transform.position - transform.position;
         var dir = diff.normalized;              //단위 백터
         transform.Translate(dir * speed * Time.deltaTime);
-        Debug.LogFormat("{0}", Time.time);
+        //Debug.LogFormat("{0}", Time.time);
 
         enemyLasting += Time.deltaTime;
         if (enemyLasting>enemyLimitedTime )
