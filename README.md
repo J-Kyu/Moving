@@ -26,7 +26,7 @@
 
 
 > Playing View
-<img src="ScreenShots/Play_View.png"
+<img src="ScreenShots/Playing_View.png"
   img width="500" img height="250"></img>
 
 
