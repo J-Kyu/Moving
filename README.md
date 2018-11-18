@@ -21,7 +21,7 @@
 
 > Start View
 
-![Alt text]<img width="200" height="100">(ScreenShots/Start_View.png)</img>
+![Alt text](ScreenShots/Start_View.png)<img width="200" height="100"></img>
 
 
 > Playing View
