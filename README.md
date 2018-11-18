@@ -21,7 +21,7 @@
 
 > Start View
 
-![Alt text](Unity_DodgeIfYouCan/ScreenShots/Start_View.png)
+![Alt text](ScreenShots/Start_View.png)
 
 
 > Playing View
