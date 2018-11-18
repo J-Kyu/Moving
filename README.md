@@ -21,13 +21,13 @@
 
 > Start View
 
-![Alt text](ScreenShots/Start_View.png)
+![Alt text]<img width="200" height="100">(ScreenShots/Start_View.png)</img>
 
 
 > Playing View
 
-![Alt text](Unity_DodgeIfYouCan/ScreenShots/Play_View.png)
+![Alt text](ScreenShots/Play_View.png)
 
 > End View
 
-![Alt text](Unity_DodgeIfYouCan/ScreenShots/End_View.png)
+![Alt text](ScreenShots/End_View.png)
