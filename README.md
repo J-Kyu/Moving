@@ -21,16 +21,18 @@
 
 > Start View
 
-<img src="ScreenShots/Start_View.png"
+  <img src="ScreenShots/Start_View.png"
   img width="500" img height="250"></img>
 
 
 > Playing View
-<img src="ScreenShots/Playing_View.png"
+
+  <img src="ScreenShots/Playing_View.png"
   img width="500" img height="250"></img>
 
 
 > End View
-<img src="ScreenShots/End_View.png"
+
+  <img src="ScreenShots/End_View.png"
   img width="500" img height="250"></img>
 
