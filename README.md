@@ -21,12 +21,12 @@
 
 > Start View
 
-![Alt text] (/ScreenShots/Start_View.png)
+![Alt text] (Unity_DodgeIfYouCan/ScreenShots/Start_View.png)
 
 > Playing View
 
-![Alt text] (/ScreenShots/Play_View.png)
+![Alt text] (Unity_DodgeIfYouCan/ScreenShots/Play_View.png)
 
 > End View
 
-![Alt text] (/ScreenShots/End_View.png)
+![Alt text] (Unity_DodgeIfYouCan/ScreenShots/End_View.png)
